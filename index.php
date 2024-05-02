@@ -13,5 +13,7 @@ if(!$_SESSION['password']){
 </head>
 <body>
     <a href="users.php">Show users</a>
+    <a href="publish_article.php">Publish article</a>
+    <a href="articles.php">Show all articles</a>
 </body>
 </html>

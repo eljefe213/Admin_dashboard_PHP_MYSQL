@@ -25,6 +25,11 @@ if(!$_SESSION['password']){
                     Delete article
                     </button>
                 </a>
+                <a href="modify_article.php?id=<?= $article['id']; ?>">
+                    <button style="color: black;background: yellow; margin-bottom : 10px; cursor: pointer">
+                        Modify article
+                    </button>
+                </a>
             </div>
             <br>
             <?php
